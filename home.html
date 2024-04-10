@@ -1,0 +1,968 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech Kagaj</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+  <body>
+    <!--logo-->
+    <div class="container mt-2 mb-2">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="homepage.html">
+                    <img src="https://techkagaj.com/wp-content/uploads/2023/02/Asset-4tk.png" alt="" class="img-fluid pt-2 ">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- nav bar-->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                
+                <div class="nav-date-time d-block d-sm-none text-white" style="font-weight: 600;">२७ चैत्र २०८०, मंगलवार</div>
+                <a class="navbar-brand active d-none d-sm-block " href="#">
+                    <i class="fa-solid fa-house fs-5 text-white"></i>
+                </a>
+                <div class=" text-white nav_icons d-block d-sm-none p-2 ms-5"><b>EG</b></div>
+
+                <div class="nav_icons text-decoration-none d-block d-sm-none" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+                
+
+                
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href=""> टेक अपडेट</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href=""> टिप्स</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link text-white " href="">टेलिकम
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white " href="">इन्टरनेट
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white " href="">ग्याजेट्स</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white " href="">टेक्नोलोजी</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white " href="">सोसल मिडिया</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white " href="">रिभ्यू</a>
+                  </li>
+                </ul>
+                
+
+                
+
+                <div class="nav_icons text-decoration-none d-none d-sm-block me-2" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <!--- search modal-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 1000;">
+                    <div class="modal-dialog">
+                      <div class="modal-content" style="width: 630px; padding: 45px;">
+                        <div class="modal-header "  style="border-bottom:none;">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">खोज</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body " >
+                            <input type="text" class="form-control" placeholder="यहाँ टाईप गर्नुहोस् ..."  style="border: 1px solid #6f6c6c;
+                            border-radius: 5px; padding: 15px; background-color:none;">
+                        </div>
+                        <div class="modal-footer" style="border-top:none;">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="font-size: 20px !important;
+                          background: #009f00;
+                          border: #009f00;">खोज्नुहोस्</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- end seach modal-->
+
+
+                <div class=" text-white nav_icons  d-none d-sm-block py-2 me-2"><b>EG</b></div>
+
+                <a href="" class="nav_icons text-decoration-none d-none d-sm-block me-2">
+                    <i class="fa-regular fa-clock   " ></i>
+                </a>
+                <a href="" class="nav_icons text-decoration-none d-none d-sm-block me-2">
+                    <i class="fa-solid fa-chart-line   " ></i>
+                </a>
+                <div class="d-flex items-center  ">
+                    <a href="" class="nav_icons text-decoration-none">
+                        <i class="fa-solid fa-user  text-white px-3 pt-1 fs-5 rounded-circle"></i>
+                    </a>
+                    <button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="background: none; border:none; margin-right:-20px">
+
+                        <i class="fas fa-bars text-white px-3 fs-2 rounded-circle cursor-pointer"></i>
+                    </button>
+                </div>
+
+
+
+
+
+               
+
+
+
+              </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="width: 300px;">
+            <div class="offcanvas-header">
+                 <!--logo-->
+                <div class="container mt-2 mb-2">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="">
+                                <img src="https://techkagaj.com/wp-content/uploads/2024/02/Group.png" alt="" class="pt-2 offcanvas-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <ul class="d-flex flex-row offcanvas-social-media">
+                            <li><div class="social-media-icons"><a href="https://www.youtube.com/channel/UC4ulcG4kfgeJ71ao5JiDZfg"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/youtube.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons ms-2"><a href="https://www.facebook.com/techkagajofficial"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/facebook.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons  ms-2"><a href="https://www.instagram.com/techkagaj"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/insta.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons ms-2"><a href="https://www.linkedin.com/company/techkagaj/"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/linkedin.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons ms-2"><a href="https://twitter.com/techkagaj"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/twitter.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons ms-2"><a href="https://www.tiktok.com/@techkagaj"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/tiktok.svg" alt=""> </a></div></li>
+                        </ul>
+                    </div>
+                </div>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+               
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item pt-2 pb-2">
+                        <a class="nav-link text-dark " href="">
+                            <i class="fa-solid fa-house fs-6 text-white rounded-circle bg-success p-2"></i>
+                            होमपेज
+                        </a>
+                    </li>
+                    <li class="nav-item pt-2 pb-2">
+                        <a class="nav-link text-dark" href=""> 
+                            <i class="fa-solid fa-book fs-6 text-white rounded-circle bg-success p-2"></i>
+                            टेक अपडेट
+                        </a>
+                    </li>
+                    <li class="nav-item pt-2 pb-2">
+                      <a class="nav-link text-dark" href="">
+                        <i class="fa-solid fa-box-tissue fs-6 text-white rounded-circle bg-success p-2"></i>
+                        टिप्स</a>
+                    </li>
+      
+                    <li class="nav-item pt-2 pb-2">
+                      <a class="nav-link text-dark " href="">
+                        <i class="fa-solid fa-phone fs-6 text-white rounded-circle bg-success p-2"></i>
+                        टेलिकम
+                      </a>
+                    </li>
+                    <li class="nav-item pt-2 pb-2">
+                      <a class="nav-link text-dark " href="">
+                        <i class="fa-sharp fa-solid fa-globe fs-6 text-white rounded-circle bg-success p-2"></i>
+                        इन्टरनेट
+                      </a>
+                    </li>
+                    <li class="nav-item pt-2 pb-2">
+                      <a class="nav-link text-dark " href="">
+                        <i class="fa-solid fa-gamepad fs-6 text-white rounded-circle bg-success p-2"></i>
+                        ग्याजेट्स</a>
+                    </li>
+                    <li class="nav-item pt-2 pb-2">
+                      <a class="nav-link text-dark " href=""><i class="fa-solid fa-microchip fs-6 text-white rounded-circle bg-success p-2"></i>टेक्नोलोजी</a>
+                    </li>
+                    <li class="nav-item pt-2 pb-2">
+                      <a class="nav-link text-dark " href="">
+                        <i class="fa-regular fa-share-from-square fs-6 text-white rounded-circle bg-success p-2"></i>
+                        सोसल मिडिया</a>
+                    </li>
+                    <li class="nav-item pt-2 pb-2">
+                      <a class="nav-link text-dark " href="">
+                        <i class="fa-regular fa-eye fs-6 text-white rounded-circle bg-success p-2"></i>
+                        रिभ्यू</a>
+                    </li>
+                </ul>
+                <hr class="pt-3 pb-3">
+                <div class="d-flex  justify-content-between">
+                    <div class=" text-white offcanvas-icon  d-none d-sm-block px-2 pt-2"><b>EG</b></div>
+
+                    <a href="" class="offcanvas-icon text-decoration-none d-none d-sm-block">
+                        <i class="fa-regular fa-clock   " ></i>
+                    </a>
+                    <a href="" class="offcanvas-icon text-decoration-none d-none d-sm-block">
+                        <i class="fa-solid fa-chart-line   " ></i>
+                    </a>
+                </div>
+                  
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid " style="background-color: #F3F7F2;">
+        <div class="container p-2">
+            <div class="row ">
+                <div class=" col-3 col-md-1 marquee-head">
+                    <h3>Tranding</h3>
+                </div>
+                <div class="col-9 col-md-11">
+                    <marquee class="d-flex" direction="left" behavior="scroll" scrollamount="8" onmouseover="stop()" onmouseout="start()">
+                        <span class="marquee ">
+                            <img class="icon " style="height: 30px;" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                            <a href="" class="text-decoration-none text-dark pe-3">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</a>
+                        </span>
+                        <span class="marquee">
+                            <img class="icon " style="height: 30px;" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                            <a href="" class="text-decoration-none text-dark pe-3">सरकारको क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</a>
+                        </span>
+
+                        <span class="marquee">
+                            <img class="icon " style="height: 30px;" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                            <a href="" class="text-decoration-none text-dark pe-3">सरकारको नीति  महत्त्व दिन क्यान महासंघको माग</a>
+                        </span>
+
+                        <span class="marquee">
+                            <img class="icon " style="height: 30px;" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                            <a href="" class="text-decoration-none text-dark pe-3">सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</a>
+                        </span>
+                        <span class="marquee ">
+                            <img class="icon " style="height: 30px;" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                            <a href="" class="text-decoration-none text-dark pe-3">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</a>
+                        </span>
+                        <span class="marquee">
+                            <img class="icon " style="height: 30px;" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                            <a href="" class="text-decoration-none text-dark pe-3">सरकारको क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</a>
+                        </span>
+
+                        <span class="marquee">
+                            <img class="icon " style="height: 30px;" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                            <a href="" class="text-decoration-none text-dark pe-3">सरकारको नीति  महत्त्व दिन क्यान महासंघको माग</a>
+                        </span>
+
+                        <span class="marquee">
+                            <img class="icon " style="height: 30px;" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                            <a href="" class="text-decoration-none text-dark pe-3">सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</a>
+                        </span>
+                        
+                        
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- marquess -->
+
+    <section id="body-upper-part">
+        <div class="container">
+            <div class="row">
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- main body part-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <img src="https://techkagaj.com/wp-content/uploads/2023/12/SME-loan_1000-x-100.gif" class="img-fluid">
+                <div class="container">
+                    <div class="row mt-5 ">
+                        <div class="col-md-4 sec-title ">
+                            <h2 class="">
+                                <img class="small-logo" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                                <a href="" class="text-decoration-none">टेक अपडेट</a>
+                            </h2>
+                        </div>
+                        <div class="col-md-6">
+                            <hr>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="arrow_sec">
+                                <a href="" class="text-decoration-none text-dark">
+                                    थप समाचार
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 ">
+                            <div class="card " style="border: none;">
+                                <div class="card-body p-0">
+                                    <div class="posts">
+                                        <a href=" " class="text-decoration-none">
+                                            <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+                                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</h3>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    
+
+
+                        <div class="col-md-4 ">
+                            <div class="card " style="border: none;">
+                                <div class="card-body p-0">
+                                    <div class="posts">
+                                        <a href=" " class="text-decoration-none">
+                                            <img src="https://techkagaj.com/wp-content/uploads/2024/03/IMepay.webp" class="img-fluid rounded" alt="">
+                                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</h3>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-4 ">
+                            <div class="card " style="border: none;">
+                                <div class="card-body p-0">
+                                    <div class="posts">
+                                        <a href=" " class="text-decoration-none">
+                                            <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+                                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</h3>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    
+
+
+                        <div class="col-md-4 ">
+                            <div class="card " style="border: none;">
+                                <div class="card-body p-0">
+                                    <div class="posts">
+                                        <a href=" " class="text-decoration-none">
+                                            <img src="https://techkagaj.com/wp-content/uploads/2024/03/IMepay.webp" class="img-fluid rounded" alt="">
+                                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</h3>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 ">
+                            <div class="card " style="border: none;">
+                                <div class="card-body p-0">
+                                    <div class="posts">
+                                        <a href=" " class="text-decoration-none">
+                                            <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+                                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</h3>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    
+
+
+                        <div class="col-md-4 ">
+                            <div class="card " style="border: none;">
+                                <div class="card-body p-0">
+                                    <div class="posts">
+                                        <a href=" " class="text-decoration-none">
+                                            <img src="https://techkagaj.com/wp-content/uploads/2024/03/IMepay.webp" class="img-fluid rounded" alt="">
+                                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</h3>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-4 ">
+                            <div class="card " style="border: none;">
+                                <div class="card-body p-0">
+                                    <div class="posts">
+                                        <a href=" " class="text-decoration-none">
+                                            <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+                                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</h3>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    
+
+
+                        <div class="col-md-4 ">
+                            <div class="card " style="border: none;">
+                                <div class="card-body p-0">
+                                    <div class="posts">
+                                        <a href=" " class="text-decoration-none">
+                                            <img src="https://techkagaj.com/wp-content/uploads/2024/03/IMepay.webp" class="img-fluid rounded" alt="">
+                                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</h3>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 ">
+                            <div class="card " style="border: none;">
+                                <div class="card-body p-0">
+                                    <div class="posts">
+                                        <a href=" " class="text-decoration-none">
+                                            <img src="https://techkagaj.com/wp-content/uploads/2024/03/IMepay.webp" class="img-fluid rounded" alt="">
+                                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष महत्त्व दिन क्यान महासंघको माग</h3>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- take tips section -->
+                <img src="https://techkagaj.com/wp-content/uploads/2023/12/SME-loan_1000-x-100.gif" class="img-fluid">
+                <div class="container">
+                    <div class="row mt-5 ">
+                        <div class="col-md-4 sec-title ">
+                            <h2 class="">
+                                <img class="small-logo" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                                <a href="" class="text-decoration-none">टेक टिप्स</a>
+                            </h2>
+                        </div>
+                        <div class="col-md-6">
+                            <hr>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="arrow_sec">
+                                <a href="" class="text-decoration-none text-dark">
+                                    थप समाचार
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title" style="font-weight: 500;">
+                                            सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष 
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2022/08/pexels-format-1029757-scaled.jpg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title text-bold" style="font-weight: 500;">
+                                            यसरी बुझ्नुहोस् स्थिर र गतिशिल वेबसाइटको अन्तर
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+
+                        
+
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2022/08/pexels-format-1029757-scaled.jpg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title text-bold" style="font-weight: 500;">
+                                            यसरी बुझ्नुहोस् स्थिर र गतिशिल वेबसाइटको अन्तर
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title" style="font-weight: 500;">
+                                            सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष 
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+
+
+                        
+
+
+
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title" style="font-weight: 500;">
+                                            सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष 
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2022/08/pexels-format-1029757-scaled.jpg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title text-bold" style="font-weight: 500;">
+                                            यसरी बुझ्नुहोस् स्थिर र गतिशिल वेबसाइटको अन्तर
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2022/08/pexels-format-1029757-scaled.jpg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title text-bold" style="font-weight: 500;">
+                                            यसरी बुझ्नुहोस् स्थिर र गतिशिल वेबसाइटको अन्तर
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title" style="font-weight: 500;">
+                                            सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष 
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+
+
+                       
+
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title" style="font-weight: 500;">
+                                            सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि क्षेत्रलाई विशेष 
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+
+
+
+                        <div class="col-12 col-sm-6 col-md-6 pb-2">
+                            <a href="" class="text-decoration-none">
+                                <div class="row "  style="border: none;">
+                                    <div class="col-6">
+                                        <img src="https://techkagaj.com/wp-content/uploads/2022/08/pexels-format-1029757-scaled.jpg" class="img-fluid rounded"  alt="">
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="pt-2 text-dark news-title text-bold" style="font-weight: 500;">
+                                            यसरी बुझ्नुहोस् स्थिर र गतिशिल वेबसाइटको अन्तर
+                                        </h3>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+                        
+                    
+                    </div>
+                </div>
+
+                <!-- end take tips-->
+            </div>
+            <div class="col-md-3" id="stickySidebar">
+                <div class="sec-title ">
+                    <h2 class="d-flex">
+                        <img class="small-logo" src="https://techkagaj.com/wp-content/uploads/2023/08/Property-1Variant4.png">
+                        <a href="" class="text-decoration-none ps-2">ट्रेंडिंग</a>
+                        <hr style="width:68px;">
+                        
+                    </h2>
+                </div>
+                <a href="" class=" text-decoration-none">
+                    <div class="row ">
+                        <div class="col-6">
+                            <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+                            
+                        </div>
+                        <div class="col-6">
+                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि ..</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <hr>
+
+                <a href="" class=" text-decoration-none">
+                    <div class="row ">
+                        <div class="col-6">
+                            <img src="https://techkagaj.com/wp-content/uploads/2024/03/IMepay.webp" class="img-fluid rounded"  alt="">
+                            
+                        </div>
+                        <div class="col-6">
+                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना माग</h3>
+                        </div>
+                    </div>
+                </a>
+                <hr>
+                <a href="" class=" text-decoration-none">
+                    <div class="row ">
+                        <div class="col-6">
+                            <img src="https://techkagaj.com/wp-content/uploads/2024/04/CAN-Federation-photo.jpeg" class="img-fluid rounded"  alt="">
+                            
+                        </div>
+                        <div class="col-6">
+                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना प्रविधि ..</h3>
+                        </div>
+                    </div>
+                </a>
+                <hr>
+                <a href="" class=" text-decoration-none">
+                    <div class="row ">
+                        <div class="col-6">
+                            <img src="https://techkagaj.com/wp-content/uploads/2024/03/IMepay.webp" class="img-fluid rounded"  alt="">
+                            
+                        </div>
+                        <div class="col-6">
+                            <h3 class="pt-2 text-dark news-title">सरकारको नीति तथा कार्यक्रममा सूचना माग</h3>
+                        </div>
+                    </div>
+                </a>
+                <hr>
+               
+            </div>
+        </div>
+    </div>
+    <!-- end main body part-->
+    <section class="container-fluid" id="footer">
+        <div class="container " id="footer-content">
+            <div class="row">
+                <div class="col-md-4 footer-head">
+                    <h3>Tech Kagaji</h3>
+                    <p>Tech Kagaj is a technology portal dedicated to bringing the latest news, reviews, and insights from the world of technology. Our team of experienced writers and industry experts are passionate about staying up-to-date on the latest developments in the tech industry and sharing that knowledge with our readers.</p>
+                    <p >फोन:
+                        <b><a href="" class="text-decoration-none text-bold text-dark">01-5244366, 9802348565</a></b>
+                    </p>
+                    <p >
+                        इमेल: <b><a href="" class="text-decoration-none text-dark">techkagaj@gmail.com</a></b>
+                    </p>
+                    <p >
+                        ठेगाना: <b><a href="" class="text-decoration-none text-dark">नयाँ बानेश्वर, काठमाडौँ</a></b>
+                    </p>
+                </div>
+                <div class="col-md-5 d-none d-sm-block">
+                    <div class="footer-head">
+                        <h3>उपयोगी लिंकहरु</h3>
+                    </div>
+                    <div class="row ">
+                        <div class="col-6 col-md-4">
+                            <p>
+                                <a href=""  class="text-decoration-none text-dark">गृहपृष्ठ</a>
+                            </p>
+                            <p>
+                                <a href="" class="text-decoration-none text-dark">टेक अपडेट</a>
+                            </p>
+                            <p>
+                                <a href="" class="text-decoration-none text-dark">टिप्स</a>
+                            </p>
+                            <p>
+                                <a href="" class="text-decoration-none text-dark">रिभ्यू</a>
+                            </p>
+                            <p>
+                                <a href="" class="text-decoration-none text-dark">टेलिकम</a>
+                            </p>
+                            <p>
+                                <a href="" class="text-decoration-none text-dark">इन्टरनेट</a>
+                            </p>
+                            </div>
+                        <div class="col-6 col-md-4">
+                            <div class="col-md-4">
+                                <p>
+                                    <a href="" class="text-decoration-none text-dark">ग्याजेट्स</a>
+                                </p>
+                                <p>
+                                    <a href="" class="text-decoration-none text-dark">टेक्नोलोजी</a>
+                                </p>
+                                <p>
+                                    <a href="" class="text-decoration-none text-dark">सोसल मिडिया</a>
+                                </p>
+                                <p>
+                                    <a href="" class="text-decoration-none text-dark">स्टार्टअप</a>
+                                </p>
+                                <p>
+                                    <a href="" class="text-decoration-none text-dark">अटो टेक</a>
+                                </p>
+                                <p>
+                                    <a href="" class="text-decoration-none text-dark">फिनटेक</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-3 ads-section">
+                    <div class="ads-content-section">
+                        <h4>विज्ञापनको लागि
+                        </h4>
+                        <p class=" ">
+                        Tech Kagaj
+                        </p>
+                        <p class="ad-contact">
+                        इमेल: <a href="" class="text-decoration-none text-white" >advertise@techkagaj.com</a>
+                        </p>
+                        <p class="ad-contact">फोन: <a href="" class=" text-decoration-none text-white" >01-5244366, 9851148565</a>
+                        </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="footer-info">
+        <div class="container py-md-5 ">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://techkagaj.com/wp-content/uploads/2024/02/Group.png" class="img-fluid  footer-logo">
+                        </div>
+                        <div class="col-md-2">
+                            <p class="footer-info-section">सूचना विभाग दर्ता नं.:
+                                <a href="" class="text-decoration-none text-white"> २९६१-२०७८/७९</a>
+                            </p>
+                            
+                        
+                        </div>
+                        <div class="col-md-2">
+                            <p class="footer-info-section">प्रेस काउन्सिल दर्ता नं.:
+                                <a href=""  class="text-decoration-none text-white"> २९५३</a>
+                            </p>
+                            
+                            
+                        </div>
+                        <div class="col-md-2">
+                            <p class="footer-info-section">प्रबन्ध सन्चालक:
+                                <a href=""  class="text-decoration-none text-white">सुदर्शन बुढाथोकी</a>
+                            </p>
+                            
+                        </div>
+                        <div class="col-md-2">
+                            <p class="footer-info-section">सम्पादक:
+                                <a href=""  class="text-decoration-none text-white">बिकाश अर्याल</a>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="">
+                        <ul class="d-flex flex-row social-media">
+                            <li><div class="social-media-icons"><a href="https://www.youtube.com/channel/UC4ulcG4kfgeJ71ao5JiDZfg"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/youtube.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons ms-2"><a href="https://www.facebook.com/techkagajofficial"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/facebook.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons  ms-2"><a href="https://www.instagram.com/techkagaj"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/insta.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons ms-2"><a href="https://www.linkedin.com/company/techkagaj/"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/linkedin.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons ms-2"><a href="https://twitter.com/techkagaj"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/twitter.svg" alt=""> </a></div></li>
+                            <li><div class="social-media-icons ms-2"><a href="https://www.tiktok.com/@techkagaj"> <img src="http://nbt.kantipurinfotech.com/wp-content/uploads/2023/08/tiktok.svg" alt=""> </a></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-end">
+        <div class="container">
+            <div class="row justify-content-center py-md-2">
+                <div class="col-md-9 d-flex flex-row pt-2">
+                    <div>
+                        <p class="text-white">© 2021-2024</p>
+                    </div>
+                    <div class="social-link site-link ps-3">
+                        <a href="" class="text-white text-decoration-none">Tech Kagaj</a>
+                    </div>
+                    <div class="text ps-3">
+                        <p class="text-white">सर्वाधिकार सुरक्षित</p>
+                    </div>
+                       
+                </div>
+                <div class="col-md-3 d-flex pt-2">
+                    <div class="">
+                        <p class="text-white text-nowrap pe-3  text-center"> Powered By:</p>
+                    </div>
+                    <div class="">
+                        <a href="" target="_blank"><img src="https://techkagaj.com/wp-content/uploads/2023/10/kantipur.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+
+
+    <!-- end footer section -->
+    <script>
+        const marquee = document.querySelector('.marquee-container');
+        marquee.addEventListener('mouseover', () => {
+            const marqueeElement = document.querySelector('marquee');
+            marqueeElement.stop(); 
+        });
+
+        marquee.addEventListener('mouseout', () => {
+            const marqueeElement = document.querySelector('marquee');
+            marqueeElement.start(); 
+        });
+
+        
+    </script>
+
+
+<script>
+    var sidebar = document.getElementById('stickySidebar');
+    var sidebarOffset = sidebar.offsetTop;
+
+    function stickySidebar() {
+        var scrollPosition = window.pageYOffset;
+        var screenWidth = window.innerWidth; 
+
+        var smallScreenWidth = 600;
+
+        if (screenWidth >= smallScreenWidth) {
+            if (scrollPosition > sidebarOffset + 150 && scrollPosition < sidebarOffset + 1500) {
+                sidebar.classList.add('sticky');
+                sidebar.style.backgroundColor = '#fff'; 
+                sidebar.style.top = '50px'; 
+                sidebar.style.right = '54px'; 
+                var rows = sidebar.querySelectorAll('.row');
+                rows.forEach(function(row) {
+                    row.style.width = '90%'; 
+                });
+            } else {
+                sidebar.classList.remove('sticky');
+                sidebar.style.backgroundColor = 'transparent'; 
+                sidebar.style.right = 'initial';
+                var rows = sidebar.querySelectorAll('.row');
+                rows.forEach(function(row) {
+                    row.style.width = '300px'; 
+                }); 
+            }
+        } else {
+            sidebar.classList.remove('sticky');
+            sidebar.style.backgroundColor = 'transparent'; 
+            sidebar.style.right = 'initial';
+            var rows = sidebar.querySelectorAll('.row');
+            rows.forEach(function(row) {
+                row.style.width = '300px'; 
+            });
+        }
+    }
+
+    window.addEventListener('load', stickySidebar); 
+    window.addEventListener('scroll', stickySidebar); 
+    window.addEventListener('resize', stickySidebar);
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
